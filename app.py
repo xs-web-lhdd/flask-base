@@ -13,5 +13,6 @@ app.register_blueprint(accounts, url_prefix='/accounts')
 app.register_blueprint(qa, url_prefix='/qa')
 
 
-
+with app.app_context():
+    db.create_all()
 
