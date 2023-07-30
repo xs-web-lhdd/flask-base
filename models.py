@@ -59,7 +59,7 @@ class UserLoginHistory(db.Model):
     # IP地址
     ip = db.Column(db.String(32))
     # user-agent
-    ua = db.Column(db.String(128))
+    ua = db.Column(db.String(1024))
     # 创建时间
     created_at = db.Column(db.DateTime, default=datetime.now)
     # 关联用户

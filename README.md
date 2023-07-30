@@ -122,6 +122,7 @@ def list_user(page=None):
 
 ## 数据库：
 flask-sqlalchemy 官网: https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/
+扩展：修改模型后的表同步(flask-migrate)
 ### 数据库安装和配置：
 - 使用 flask-sqlalchemy 配置
 - 安装：
